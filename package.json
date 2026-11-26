@@ -1,0 +1,40 @@
+{
+  "name": "nanquim-theme",
+  "displayName": "Nanquim Theme",
+  "description": "Dark charcoal theme with a sea-green accent, inspired by Vira Carbon. Includes Nanquim Black (pure black background). Companion of nanquim.nvim.",
+  "version": "1.2.0",
+  "publisher": "nanquim",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0A0A0A",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "carbon",
+    "nanquim",
+    "neovim"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nanquim",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nanquim-color-theme.json"
+      },
+      {
+        "label": "Nanquim Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nanquim-black-color-theme.json"
+      }
+    ]
+  }
+}
